@@ -1,0 +1,2852 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#"
+     xml:base="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:padc="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#terdiagnosa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#terdiagnosa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_embun_jelaga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_embun_jelaga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_larva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_larva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_telur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_telur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_daun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_daun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_kebul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_kebul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Antraknosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Antraknosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Busuk_pada_buah_matang"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_seperti_cincin"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_warna_hitam"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lokasi_busuk_bentuk_lingkaran"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Batang_busuk_berbau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Batang_busuk_berbau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Begomovirus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Begomovirus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_kebul"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_spot"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_berubah_warna_area_sengatan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_berubah_warna_area_sengatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_gugur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_gugur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_membusuk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_membusuk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Busuk_pada_buah_matang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Busuk_pada_buah_matang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Cabai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Cabai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Chilli_Veinal_Mottle_Virus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Chilli_Veinal_Mottle_Virus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_daun"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tulang_daun_menguning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_berkerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_berkerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_melengkung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_melengkung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_coklat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_coklat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_keperakan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_keperakan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_embun_jelaga"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_berkerut"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_bewarna_putih"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Kebul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Kebul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_telur"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_larva"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_berubah_warna_area_sengatan"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_gugur"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_membusuk"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Sisa_tusukan_pada_buah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Bakteri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Bakteri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Batang_busuk_berbau"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layunya_perlahan"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_layu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Fusarium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Fusarium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layunya_perlahan"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_layu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layunya_perlahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layunya_perlahan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_seperti_cincin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_seperti_cincin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_warna_hitam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_warna_hitam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lokasi_busuk_bentuk_lingkaran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lokasi_busuk_bentuk_lingkaran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_buah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_buah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_spot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_spot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Produksi_bunga_terhambat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Produksi_bunga_terhambat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Sisa_tusukan_pada_buah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Sisa_tusukan_pada_buah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_bewarna_putih -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_bewarna_putih">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_layu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_layu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tangkai_daun_memanjang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tangkai_daun_memanjang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Hama"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_berkerut"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_melengkung"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_coklat"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_keperakan"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Produksi_bunga_terhambat"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tangkai_daun_memanjang"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tunas_baru_mudah_rontok"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tulang_daun_menguning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tulang_daun_menguning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tunas_baru_mudah_rontok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tunas_baru_mudah_rontok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Gejala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Virus_Mosaik_Alfalfa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Virus_Mosaik_Alfalfa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Penyakit"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_daun"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_buah"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun"/>
+        <menyebabkanGejala rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_spot"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R022</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_embun_jelaga"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R011</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_berkerut"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R007</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_melengkung"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R032</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Begomovirus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R019</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R015</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_mengeriting"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Kebul"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R009</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_coklat"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R016</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Kebul"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R018</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Kebul"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R035</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Bakteri"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R043</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_kekuningan"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Fusarium"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R008</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_warna_keperakan"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R037</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layunya_perlahan"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Bakteri"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R046</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layunya_perlahan"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Fusarium"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R049</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_seperti_cincin"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Antraknosa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R050</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lingkaran_busuk_warna_hitam"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Antraknosa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R048</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lokasi_busuk_bentuk_lingkaran"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Antraknosa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R026</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_buah"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Virus_Mosaik_Alfalfa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R029</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Begomovirus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R005</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R039</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Chilli_Veinal_Mottle_Virus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R025</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Mosaik_pada_daun"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Virus_Mosaik_Alfalfa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R041</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Chilli_Veinal_Mottle_Virus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R036</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Bakteri"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R045</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_merata"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Fusarium"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R030</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_spot"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Begomovirus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R027</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Pola_serangannya_spot"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Virus_Mosaik_Alfalfa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R013</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Produksi_bunga_terhambat"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority-1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R001</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Sisa_tusukan_pada_buah"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R023</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_bewarna_putih"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R014</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R031</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Begomovirus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R021</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R017</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_kerdil"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Kebul"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R034</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_layu"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Bakteri"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R044</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman_layu"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Fusarium"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R010</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tangkai_daun_memanjang"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R040</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tulang_daun_menguning"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Chilli_Veinal_Mottle_Virus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R012</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tunas_baru_mudah_rontok"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Thrips_Cabai"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R006</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_larva"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R042</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_daun"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Chilli_Veinal_Mottle_Virus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R028</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_daun"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Virus_Mosaik_Alfalfa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R033</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_vektor_kutu_kebul"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Begomovirus"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R038</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Batang_busuk_berbau"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Layu_Bakteri"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R002</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_berubah_warna_area_sengatan"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R004</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_gugur"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R024</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Adanya_imago"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R003</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Buah_membusuk"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Lalat_Buah"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R047</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Busuk_pada_buah_matang"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Antraknosa"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R020</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Tanaman"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#menyebabkanGejala"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Daun_berkerut"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/syaifulqomaruddin/ontologies/2024/0/padc#Kutu_Daun"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
