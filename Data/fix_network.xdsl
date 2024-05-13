@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Antraknosa" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Busuk_bentuk_lingkaran">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Antraknosa</parents>
+			<probabilities>0.95 0.05 0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="Busuk_pada_buah_matang">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Antraknosa</parents>
+			<probabilities>0.95 0.05 0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="Lingkaran_busuk_cincin">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Antraknosa</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Lingkaran_busuk_hitam">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Antraknosa</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Kutu_Kebul" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Begomovirus" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Kebul</parents>
+			<probabilities>0.6 0.4 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Kutu_Daun" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Daun_mengeriting">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Begomovirus Kutu_Daun Kutu_Kebul</parents>
+			<probabilities>0.95 0.05 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Chilli_Veinal_Mottle_Virus" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Daun</parents>
+			<probabilities>0.6 0.4 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Virus_Mosaik_Alfalfa" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Daun</parents>
+			<probabilities>0.6 0.4 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Mosaik_pada_daun">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Begomovirus Chilli_Veinal_Mottle_Virus Virus_Mosaik_Alfalfa</parents>
+			<probabilities>0.95 0.05 0.8 0.2 0.8 0.2 0.8 0.2 0.8 0.2 0.8 0.2 0.8 0.2 0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Pola_serangannya_spot">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Begomovirus Virus_Mosaik_Alfalfa</parents>
+			<probabilities>0.95 0.05 0.9 0.1 0.9 0.1 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Tanaman_kerdil">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Begomovirus Kutu_Daun Kutu_Kebul</parents>
+			<probabilities>0.95 0.05 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Layu_Bakteri" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Layu_Fusarium" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Pola_serangannya_merata">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Chilli_Veinal_Mottle_Virus Layu_Bakteri Layu_Fusarium</parents>
+			<probabilities>0.95 0.05 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Tulang_daun_menguning">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Chilli_Veinal_Mottle_Virus</parents>
+			<probabilities>0.95 0.05 0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Adanya_embun_jelaga">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Daun</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Lalat_Buah" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Thrips_Cabai" target="true">
+			<state id="absent" />
+			<state id="present" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Adanya_imago">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Daun Kutu_Kebul Lalat_Buah Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.7 0.3 0.8 0.2 0.75 0.25 0.4 0.6 0.55 0.45 0.6 0.4 0.633 0.367 0.5 0.5 0.6 0.4 0.65 0.35 0.667 0.333 0.45 0.55 0.533 0.467 0.5669999999999999 0.433 0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="Daun_berkerut">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Daun Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.85 0.15 0.9 0.1 0.875 0.125</probabilities>
+		</cpt>
+		<cpt id="Tanaman_bewarna_putih">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Daun</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Adanya_telur">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Kebul</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Daun_warna_kekuningan">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Kutu_Kebul Layu_Bakteri Layu_Fusarium</parents>
+			<probabilities>0.95 0.05 0.8 0.2 0.9 0.1 0.85 0.15 0.9 0.1 0.85 0.15 0.9 0.1 0.867 0.133</probabilities>
+		</cpt>
+		<cpt id="Adanya_larva">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Lalat_Buah</parents>
+			<probabilities>0.95 0.05 0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="Buah_berubah_warna">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Lalat_Buah</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Buah_gugur">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Lalat_Buah</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Buah_membusuk">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Lalat_Buah</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Sisa_tusukan_pada_buah">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Lalat_Buah</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Batang_busuk_berbau">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Layu_Bakteri</parents>
+			<probabilities>0.95 0.05 0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Layunya_perlahan">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Layu_Bakteri Layu_Fusarium</parents>
+			<probabilities>0.95 0.05 0.9 0.1 0.9 0.1 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Tanaman_layu">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Layu_Bakteri Layu_Fusarium</parents>
+			<probabilities>0.95 0.05 0.4 0.6 0.5 0.5 0.45 0.55</probabilities>
+		</cpt>
+		<cpt id="Daun_melengkung">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.85 0.15</probabilities>
+		</cpt>
+		<cpt id="Daun_warna_coklat">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.95 0.05</probabilities>
+		</cpt>
+		<cpt id="Daun_warna_keperakan">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.95 0.05</probabilities>
+		</cpt>
+		<cpt id="Produksi_bunga_terhambat">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Tangkai_daun_memanjang">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Tunas_baru_mudah_rontok">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Thrips_Cabai</parents>
+			<probabilities>0.95 0.05 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Mosaik_pada_buah">
+			<state id="absent" />
+			<state id="present" />
+			<parents>Virus_Mosaik_Alfalfa</parents>
+			<probabilities>0.95 0.05 0.8 0.2</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3402.0 ACADEMIC" name="Unnamed">
+			<node id="Antraknosa">
+				<name>Antraknosa</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>685 501 770 556</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Busuk_bentuk_lingkaran">
+				<name>Busuk_bentuk_lingkaran</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>158 378 243 433</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Busuk_pada_buah_matang">
+				<name>Busuk_pada_buah_matang</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>388 228 473 283</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Lingkaran_busuk_cincin">
+				<name>Lingkaran_busuk_cincin</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>869 463 954 518</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Lingkaran_busuk_hitam">
+				<name>Lingkaran_busuk_hitam</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>307 498 392 553</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Begomovirus">
+				<name>Begomovirus</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>609 368 694 423</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Daun_mengeriting">
+				<name>Daun_mengeriting</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>303 375 388 430</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Mosaik_pada_daun">
+				<name>Mosaik_pada_daun</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>111 99 196 154</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Pola_serangannya_spot">
+				<name>Pola_serangannya_spot</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>212 177 297 232</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Tanaman_kerdil">
+				<name>Tanaman_kerdil</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>143 244 228 299</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Chilli_Veinal_Mottle_Virus">
+				<name>Chilli_Veinal_Mottle_Virus</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>721 604 806 659</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Pola_serangannya_merata">
+				<name>Pola_serangannya_merata</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1216 559 1301 614</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Tulang_daun_menguning">
+				<name>Tulang_daun_menguning</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1147 656 1232 711</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Kutu_Daun">
+				<name>Kutu_Daun</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>914 129 999 184</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Adanya_embun_jelaga">
+				<name>Adanya_embun_jelaga</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1028 38 1113 93</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Adanya_imago">
+				<name>Adanya_imago</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>747 60 832 115</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Daun_berkerut">
+				<name>Daun_berkerut</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>933 232 1018 287</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Tanaman_bewarna_putih">
+				<name>Tanaman_bewarna_putih</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1286 40 1371 95</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Virus_Mosaik_Alfalfa">
+				<name>Virus_Mosaik_Alfalfa</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>771 356 856 411</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Kutu_Kebul">
+				<name>Kutu_Kebul</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>582 208 667 263</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Adanya_telur">
+				<name>Adanya_telur</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>251 71 336 126</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Daun_warna_kekuningan">
+				<name>Daun_warna_kekuningan</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>477 22 562 77</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Lalat_Buah">
+				<name>Lalat_Buah</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>477 627 562 682</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Adanya_larva">
+				<name>Adanya_larva</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>880 726 965 781</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Buah_berubah_warna">
+				<name>Buah_berubah_warna</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>602 723 687 778</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Buah_gugur">
+				<name>Buah_gugur</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>166 737 251 792</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Buah_membusuk">
+				<name>Buah_membusuk</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>334 27 419 82</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Sisa_tusukan_pada_buah">
+				<name>Sisa_tusukan_pada_buah</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>436 709 521 764</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Layu_Bakteri">
+				<name>Layu_Bakteri</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>941 398 1026 453</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Batang_busuk_berbau">
+				<name>Batang_busuk_berbau</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>865 611 950 666</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Layunya_perlahan">
+				<name>Layunya_perlahan</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>996 521 1081 576</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Tanaman_layu">
+				<name>Tanaman_layu</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1122 241 1207 296</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Layu_Fusarium">
+				<name>Layu_Fusarium</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1139 407 1224 462</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Thrips_Cabai">
+				<name>Thrips_Cabai</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1099 154 1184 209</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Daun_melengkung">
+				<name>Daun_melengkung</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1323 299 1408 354</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Daun_warna_coklat">
+				<name>Daun_warna_coklat</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>568 102 653 157</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Daun_warna_keperakan">
+				<name>Daun_warna_keperakan</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>56 308 141 363</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Produksi_bunga_terhambat">
+				<name>Produksi_bunga_terhambat</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>235 583 320 638</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Tangkai_daun_memanjang">
+				<name>Tangkai_daun_memanjang</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1290 168 1375 223</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Tunas_baru_mudah_rontok">
+				<name>Tunas_baru_mudah_rontok</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>111 508 196 563</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Mosaik_pada_buah">
+				<name>Mosaik_pada_buah</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="Arial" size="8" />
+				<position>325 644 410 699</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
